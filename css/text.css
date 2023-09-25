@@ -1,0 +1,187 @@
+/* .title {
+    font-size: 2vw;
+
+    @media (max-width: 50rem) {
+        font-size: 2rem;
+    }
+}
+
+.title1 {
+    font-size: 2rem;
+
+    @media (max-width: 50rem) {
+        font-size: 2vw;
+    }
+} */
+
+
+/*  */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    /* height: 100vh; */
+    width: 100vw;
+}
+
+.flex {
+    flex: 1;
+}
+
+.navbar {
+    /* position: absolute; */
+    text-decoration: none;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar .logo {
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.navbar .nav-link ul {
+    display: flex;
+
+}
+
+body {
+    margin-bottom: 4rem;
+}
+
+.indexpage {
+    background: #888;
+}
+
+.box {
+    height: 100%;
+    display: flex;
+}
+
+.section {
+    flex: 1;
+}
+
+.titre {
+    text-align: center;
+    font-size: 5vw;
+    white-space: normal;
+    word-break: break-all;
+    text-decoration: none;
+    color: black;
+}
+
+/* .menu {
+    word-break: break-all;
+    text-decoration: none;
+  } */
+
+.texte {
+    font-size: 2.5vw;
+}
+
+.pres {
+    white-space: normal;
+    word-break: break-all;
+    text-decoration: none;
+}
+
+.part2 {
+    font-size: 2.5vmin;
+    text-align: center;
+    text-decoration: none;
+}
+
+.part4 {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.print {
+    width: 3.5%;
+}
+
+.photo_pres {
+    border-radius: 47%;
+    float: right;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 50%;
+}
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 72%;
+}
+
+.img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 85%;
+}
+
+.afichage-title {
+    margin-left: 1%;
+    margin-bottom: 5rem;
+}
+
+.afichage-text {
+    margin-bottom: 5rem;
+    margin-left: 4%;
+}
+
+@media only screen and (min-width: 68rem) {
+    .titre {
+        font-size: 4rem;
+    }
+
+    .texte {
+        font-size: 1.5rem;
+    }
+
+    .img {
+        height: 15rem;
+        width: auto;
+    }
+
+    .img1 {
+        height: 20rem;
+        width: auto;
+    }
+
+    .img2 {
+        height: 20rem;
+        width: auto;
+    }
+
+    .print {
+        height: auto;
+        width: 2rem;
+    }
+}
